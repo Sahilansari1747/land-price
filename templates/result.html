@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2><i class="fas fa-chart-line"></i> Prediction Result</h2>
+        <p class="result"><i class="fas fa-money-bill-wave"></i> Estimated Price: ₹ {{ price }}</p>
+        <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Try Another Prediction</a>
+    </div>
+</body>
+</html>

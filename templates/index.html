@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Price Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Land Price Predictor</h1>
+        <form>
+            <div class="form-group">
+                <label for="price">Price ($):</label>
+                <input type="text" id="price" name="price" placeholder="Enter Price">
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <select id="location" name="location">
+                    <option value="urban">Urban</option>
+                    <option value="suburban">Suburban</option>
+                    <option value="rural">Rural</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="type">Type:</label>
+                <select id="type" name="type">
+                    <option value="residential">Residential</option>
+                    <option value="commercial">Commercial</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="distance">Road Distance (in km):</label>
+                <input type="text" id="distance" name="distance" placeholder="Enter Distance">
+            </div>
+            <button type="submit">Predict Price</button>
+        </form>
+    </div>
+</body>
+</html>
